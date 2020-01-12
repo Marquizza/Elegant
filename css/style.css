@@ -1,0 +1,18 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 769px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header {
+	background-image: url("../img/banner.png");
+	background-size: cover;
+	
+}
