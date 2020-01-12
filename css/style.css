@@ -6,6 +6,13 @@ body {
 	color: #021725;	
 }
 
+.wrapper-main {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	position: relative;
+}
+
 .wrapper {
 	width: 100%;
 	max-width: 769px;
@@ -17,7 +24,8 @@ body {
 	background-image: url("../img/banner.png");
 	background-size: cover;
 	padding-top: 15px;
-	padding-bottom: 318px;	
+	padding-bottom:265px;
+	max-height: 700px;	
 }
 
 .items-top {
@@ -27,11 +35,16 @@ body {
 	justify-content: space-between;
 }
 
+.menu {
+     padding-top: 15px;
+}
+
 h1 {
 	font-size: 80px;
 	color: #fff;
-	margin-top: 262px;
+	margin-top: 229px;
 	font-weight: 300;
+	letter-spacing: 4px;
 }
 
 h1 span {
@@ -43,6 +56,8 @@ h1 span {
 	font-weight: 600;
 	color: #4d5c66;
 	margin-bottom: 0;
+	margin-top: 80px;
+	letter-spacing: 2px;
 }
 
 .title-info span {
@@ -50,10 +65,15 @@ h1 span {
 	color: #d4af37;
 	font-size: 13px;
 	font-weight: 600;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	letter-spacing: 1px;
 }
 
 .description {
-	line-height: 32px;	
+	line-height: 32px;
+	margin-top: 40px;
+	letter-spacing: 1px;		
 }
 
 .btn {
@@ -62,12 +82,13 @@ h1 span {
 	font-size: 14px;
 	text-decoration: none;
 	border: 1px solid #000000;	
-	padding: 17px 46px;
-	letter-spacing: 1.5px;	
+	padding: 18px 48px;
+	letter-spacing: 1.5px;
+	letter-spacing: 0.5px;	
 }
 
 .world-part {
-	margin-bottom: 76px;
+	margin-bottom: 58px;
 }
 
 .blocks-part {
@@ -77,25 +98,26 @@ h1 span {
 .grid {
 	display: grid;
 	grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;	
-	margin-top: 126px;
-	margin-bottom: 122px;
+	margin-top: 86px;
+	margin-bottom: 159px;
 }
+
 
 .flex-team {
 	display: flex;
-	margin-top: 80px;
+	margin-top: 42px;
 	margin-bottom: 164px;	
 }
 
 .team {
-	padding-bottom: 48px;
+	padding-bottom: 28px;
 	background-color: #f9f9f9;	
 	margin-left: 5px;
 	max-width: 244px;
 }
 
 .team:first-child {
-	margin-left: 0;
+	margin-left: 10px;
 	max-width: 246px;
 }
 
@@ -117,15 +139,22 @@ h1 span {
 	color: #d4af37;
 	text-transform: uppercase;
 	font-size: 13px;
+	padding-top: 5px;
 }
 
 .team-name {
-	font-size: 21px;	
+	font-size: 21px;
+	margin-top: 16px;
+	margin-bottom: 25px;
+	font-weight: 600;
+	color: #71777c;	
+	letter-spacing: 0.7px;
 }
 
 .description-little {
     font-size: 13px;
     line-height: 23px;
+    letter-spacing: 0.5px;
 }
 
 .team-stat {
@@ -134,25 +163,35 @@ h1 span {
 	text-align: left;
 }
 
+.write-part .title-info {
+	margin-bottom: 45px;
+}
+
 .article {
 	display: flex;
 	background-color: #f9f9f9;
 	color: #505d68;
-	margin-bottom: 108px;
+	margin-bottom: 98px;
 }
 
 .date {
-	font-size: 13px;	
+	font-size: 13px;
+	margin-top: 40px;
+	text-transform: uppercase;
+	letter-spacing: 0.8px;
+	font-weight: 600;	
 }
 
 .article-text h3 {
-	font-size: 30px;	
+	font-size: 30px;
+	margin-top: 15px;	
 }
 
 .description-write {
 	font-size: 16px;
 	line-height: 25px;
-	padding-bottom: 100px;	
+	padding-bottom: 46px;
+	letter-spacing: 0.8px;	
 }
 
 .date-info {
@@ -163,6 +202,7 @@ h1 span {
 
 .article-text .btn {
 	margin-right: 180px;
+	padding: 13px 46px;
 }
 
 .map-part {
@@ -170,31 +210,39 @@ h1 span {
 	background-color: #f9f9f9;
 	margin-bottom: 82px;
 	color: #505d68;
+	padding-bottom: 20px;
 }
 
 .map {
-	margin-top: 55px;
+	margin-top: 50px;
 }
 
 .grid-contacts {
 	display: grid;
 	grid-template: 1fr 1fr / 1fr 1fr;
+	grid-gap: 23px 20px;
 }
 
 
 .contact-item h4 {
+	font-size: 13px;
 	font-weight: 600;
+	padding-top: 28px;
+	margin-bottom: 37px;
+	letter-spacing: 0.7px;
+	text-transform: uppercase;
 }
 
 .contact-item p {
 	font-size: 19px;
 	line-height: 34px;
+	letter-spacing: 0.7px;
 }
 
 .footer-long {
 	background-color: #eeeeee;
-	padding-top: 40px;
-	padding-bottom: 36px;
+	padding-top: 38px;
+	padding-bottom: 38px;
 }
 
 .footer-flex {
@@ -204,10 +252,10 @@ h1 span {
 }
 
 .footer-item-1 {
-	padding-left: 23px;
+	padding-left: 12px;
 }
 
 .footer-item-2 {
-	padding-right: 15px;
+	padding-right: 12px;
 }
 
