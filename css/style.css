@@ -165,4 +165,49 @@ h1 span {
 	margin-right: 180px;
 }
 
+.map-part {
+	margin-top: 183px;
+	background-color: #f9f9f9;
+	margin-bottom: 82px;
+	color: #505d68;
+}
+
+.map {
+	margin-top: 55px;
+}
+
+.grid-contacts {
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+
+.contact-item h4 {
+	font-weight: 600;
+}
+
+.contact-item p {
+	font-size: 19px;
+	line-height: 34px;
+}
+
+.footer-long {
+	background-color: #eeeeee;
+	padding-top: 40px;
+	padding-bottom: 36px;
+}
+
+.footer-flex {
+	display: flex;
+	font-size: 16px;
+	justify-content: space-between;
+}
+
+.footer-item-1 {
+	padding-left: 23px;
+}
+
+.footer-item-2 {
+	padding-right: 15px;
+}
 
