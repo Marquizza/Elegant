@@ -323,8 +323,11 @@ h1 span {
     iframe {
     	max-width: 100%;
     }
-
-} 
-.footer-flex {
+    .footer-flex {
 	font-size: 12px;
-}
+    }
+    .description {
+    	padding-left: 10px;
+    	padding-right: 10px;
+    }
+} 
