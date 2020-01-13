@@ -20,12 +20,13 @@ body {
 	position: relative;
 }
 
-.header {
+header {
 	background-image: url("../img/banner.png");
 	background-size: cover;
 	padding-top: 15px;
 	padding-bottom:265px;
-	max-height: 700px;	
+	max-height: 700px;
+	width: 100%;	
 }
 
 .items-top {
