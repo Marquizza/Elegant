@@ -270,12 +270,30 @@ h1 span {
 	padding-right: 12px;
 }
 
-@media(max-width:992px) {
+@media(max-width:1300px) {
+	.wrapper {
+    	max-width: 100%;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
 	.hidden {
 		display: none;
 	}
 	.grid {
 		grid-template: 1fr 1fr / 1fr 1fr 1fr;
+	}
+	.team {
+		flex-wrap: wrap;
+	}
+}
+
+
+@media(max-width:992px) {
+	.hidden {
+		display: none;
+	}
+	.grid {
+		grid-template: 1fr 1fr 1fr / 1fr 1fr;
 	}
 	.elegant {
 	    padding-left: 20px;
@@ -286,9 +304,23 @@ h1 span {
 }
 
 @media(max-width:978px) {
-     .team {
-     	flex-basis: 100%;
-     }
+	.title-info {
+		font-size: 34px;
+	}
+	.title-info span {
+        font-size: 12px;
+	}
+	.description {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.flex-team {
+        flex-wrap: nowrap;
+    }
+   
+    iframe {
+    	max-width: 100%;
+    }
 }
 
 @media(max-width:576px) {
